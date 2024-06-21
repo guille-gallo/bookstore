@@ -1,0 +1,163 @@
+
+button.profile {
+  position: absolute;
+  top: 62%;
+  left: 3px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #3700B3;
+  color: #fff;
+  border: none;
+  width: 92px;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+button.delete {
+  background-color: #dd0074;
+
+}
+
+.container {
+    .loading {
+      background: antiquewhite;
+      padding: 20px;
+    }
+
+    border: 3px solid #3700B3;
+    height: 400px;
+    overflow: auto;
+    
+    .user-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+      
+      label {
+        display: flex;
+        font-weight: bold;
+      }
+    }
+
+    .purchases {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+
+      .total-amount {
+        display: flex;
+        flex-direction: row;
+        
+        .total-label {
+          font-size: 14px;
+          font-weight: bold;
+          text-decoration: underline;
+          padding-right: 12px;
+        }
+  
+        .total-value {
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+
+      .books {
+        padding-left: 16px;
+        .subheading {
+          font-size: 14px;
+          font-weight: bold;
+          text-decoration: underline;
+        }
+        .book-details {
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          padding: 10px;
+          border-bottom: 1px solid lightgray;
+          
+          label {
+            display: flex;
+            flex-direction: row;
+            font-weight: bold;
+          }
+          
+          ul {
+            list-style-type: disc;
+          }
+        }
+      }
+    }
+    .scroll-label {
+      padding-top: 12px;
+    }
+}
+
+.element {
+  border: 1px solid lightgray;
+  padding: 20px;
+  font-size: 20px;
+
+  .details-wrapper {
+    height: 126px;
+  }
+
+  .details {
+      display: flex;
+      flex-direction: row;
+      
+      .button-details {
+          padding: 10px;
+      }
+      .info {
+          background-color: antiquewhite;
+          padding: 8px;
+          border-radius: 12px;
+          z-index: 10;
+      }
+
+      img {
+        height: 90px;
+      }
+  }
+
+  .button-submit {
+    padding-top: 120px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .button-submit.add {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 82px;
+  }
+
+  .edit {
+    margin-right: 14px;
+  }
+}
+
+.element.edit {
+  border: 2px dashed #3700B3;
+  padding: 20px 20px 58px 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.element.add {
+  padding: 20px 20px 52px 20px;
+
+  .details {
+    height: 92px;
+
+    label {
+      display: flex;
+      width: 100%;
+      padding-bottom: 12px;
+    }
+  }
+}

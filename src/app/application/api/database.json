@@ -1,0 +1,108 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Lord of the Rings - The fellowship of the ring",
+      "author": "J.R.R. Tolkien",
+      "price": 49.99,
+      "cover_url": "https://m.media-amazon.com/images/I/51HNV1J3UyL._SL500_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Lord of the Rings - The two towers",
+      "author": "J.R.R. Tolkien",
+      "price": 39.99,
+      "cover_url": "https://m.media-amazon.com/images/I/41sMe18lj+L._SL500_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Lord of the Rings - The return of the king",
+      "author": "J.R.R. Tolkien",
+      "price": 45.99,
+      "cover_url": "https://m.media-amazon.com/images/I/51VYSm49SUL._SL500_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "price": 29.99,
+      "cover_url": "https://m.media-amazon.com/images/I/51em3xUxHOL._SL500_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Wise Man's Fear",
+      "author": "Patrick Rothfuss",
+      "price": 31.99,
+      "cover_url": "https://m.media-amazon.com/images/I/51kmKNL3onS._SL500_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "price": 15.99,
+      "cover_url": "https://m.media-amazon.com/images/I/51wXnnmofWL._SL500_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "price": 14.49,
+      "cover_url": "https://m.media-amazon.com/images/I/41y3GywL1lL._SL500_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "price": 23.49,
+      "cover_url": "https://m.media-amazon.com/images/I/31nCuk0puCL._SL500_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 12.99,
+      "cover_url": "https://m.media-amazon.com/images/I/416K+gR7RLL._SL500_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "Jane Austen",
+      "price": 9.99,
+      "cover_url": "https://m.media-amazon.com/images/I/513-uMNY0TL._SL500_.jpg"
+    }
+  ],
+  "purchases": [
+    {
+      "user": {
+        "name": "Guillermo Gallo",
+        "email": "guille.gallo88@gmail.com"
+      },
+      "books": [
+        {
+          "id": 1,
+          "title": "Lord of the Rings - The fellowship of the ring",
+          "author": "J.R.R. Tolkien",
+          "price": 49.99,
+          "cover_url": "https://m.media-amazon.com/images/I/51HNV1J3UyL._SL500_.jpg",
+          "genre": "Fantasy"
+        },
+        {
+          "id": 2,
+          "title": "Lord of the Rings - The two towers",
+          "author": "J.R.R. Tolkien",
+          "price": 39.99,
+          "cover_url": "https://m.media-amazon.com/images/I/41sMe18lj+L._SL500_.jpg",
+          "genre": "Fantasy"
+        },
+        {
+          "id": 3,
+          "title": "Lord of the Rings - The return of the king",
+          "author": "J.R.R. Tolkien",
+          "price": 45.99,
+          "cover_url": "https://m.media-amazon.com/images/I/51VYSm49SUL._SL500_.jpg",
+          "genre": "Fantasy"
+        }
+      ]
+    }
+  ]
+}
